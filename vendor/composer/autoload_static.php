@@ -60,8 +60,13 @@ class ComposerStaticInit447e0408cbcbbdf0d6df9a85eb1d2ead
         'D' => 
         array (
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Bundle\\FixturesBundle\\' => 31,
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
+        ),
+        'C' => 
+        array (
+            'CoreSphere\\ConsoleBundle\\' => 25,
         ),
     );
 
@@ -166,6 +171,10 @@ class ComposerStaticInit447e0408cbcbbdf0d6df9a85eb1d2ead
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
         ),
+        'Doctrine\\Bundle\\FixturesBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/doctrine-fixtures-bundle',
+        ),
         'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/doctrine-cache-bundle',
@@ -173,6 +182,10 @@ class ComposerStaticInit447e0408cbcbbdf0d6df9a85eb1d2ead
         'Doctrine\\Bundle\\DoctrineBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/doctrine-bundle',
+        ),
+        'CoreSphere\\ConsoleBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coresphere/console-bundle',
         ),
     );
 
@@ -209,6 +222,13 @@ class ComposerStaticInit447e0408cbcbbdf0d6df9a85eb1d2ead
                 0 => __DIR__ . '/..' . '/willdurand/jsonp-callback-validator/src',
             ),
         ),
+        'I' => 
+        array (
+            'Imagine' => 
+            array (
+                0 => __DIR__ . '/..' . '/imagine/imagine/lib',
+            ),
+        ),
         'D' => 
         array (
             'Doctrine\\ORM\\' => 
@@ -227,6 +247,10 @@ class ComposerStaticInit447e0408cbcbbdf0d6df9a85eb1d2ead
             array (
                 0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
             ),
+            'Doctrine\\Common\\DataFixtures' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/data-fixtures/lib',
+            ),
             'Doctrine\\Common\\Collections\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
@@ -238,6 +262,13 @@ class ComposerStaticInit447e0408cbcbbdf0d6df9a85eb1d2ead
             'Doctrine\\Common\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/common/lib',
+            ),
+        ),
+        'A' => 
+        array (
+            'Avalanche\\Bundle\\ImagineBundle' => 
+            array (
+                0 => __DIR__ . '/..' . '/avalanche123/imagine-bundle',
             ),
         ),
     );
